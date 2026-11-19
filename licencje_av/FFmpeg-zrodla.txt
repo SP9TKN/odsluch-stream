@@ -1,0 +1,9 @@
+Dekodowanie strumieni skompresowanych korzysta z bibliotek FFmpeg (licencja LGPL 3.0 lub nowsza,
+budowa bez --enable-gpl i bez --enable-nonfree) dostarczonych z pakietem PyAV 19.0.2 (licencja BSD-3-Clause).
+
+Kod źródłowy:
+- FFmpeg: https://ffmpeg.org/download.html
+- PyAV: https://github.com/PyAV-Org/PyAV
+- skrypty budowania FFmpeg dla PyAV: https://github.com/PyAV-Org/pyav-ffmpeg
+
+Biblioteki FFmpeg są ładowane dynamicznie (pliki DLL rozpakowywane przy starcie programu).
